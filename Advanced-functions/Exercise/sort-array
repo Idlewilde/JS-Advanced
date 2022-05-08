@@ -1,0 +1,8 @@
+function solve(array, sorting) {
+    switch (sorting) {
+        case 'asc':
+            return array.sort((a, b) => a - b);
+        case 'desc':
+            return array.sort((a, b) => b - a);
+    }
+}
