@@ -1,4 +1,4 @@
-function solve (){
+function solve() {
 
     const heroes = {
         fighter: (name) => {

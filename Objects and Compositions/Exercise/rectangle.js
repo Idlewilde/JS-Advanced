@@ -1,15 +1,15 @@
-function solve (width, height, color){
+function solve(width, height, color) {
 
-    
 
-    let rectangle ={
+
+    let rectangle = {
         width,
         height,
-        color:color[0].toUpperCase()+color.slice(1,color.length),
-        calcArea(){return this.width*this.height}
+        color: color[0].toUpperCase() + color.slice(1, color.length),
+        calcArea() { return this.width * this.height }
     }
 
-   return rectangle;
+    return rectangle;
 }
 
-solve(3,4,'red')
+solve(3, 4, 'red')
